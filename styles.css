@@ -58,12 +58,12 @@ header h1 {
     background-color: var(--primary-color);
     color: #fff;
 
+    transition: all 100ms ease-in-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 500ms ease-in-out;
 }
 
 .onSound {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .key kbd {
@@ -76,6 +76,7 @@ header h1 {
 
 footer {
     margin-top: calc(100vh - 30%);
+    font-size: 1.4rem;
 }
 
 footer a {
